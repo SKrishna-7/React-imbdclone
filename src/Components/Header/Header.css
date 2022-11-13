@@ -1,0 +1,38 @@
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 2.5rem;
+    padding: 1rem 0;
+    height: 8vh;
+    
+}
+.header .headerleft{
+    
+    display: flex;
+    align-items: center;
+}
+.header_logo{
+    border: 2px solid red;
+    padding: 10px;
+    border-radius: 5px;
+    color: red;
+    font-weight: lighter;
+    letter-spacing: 1px;
+}
+.header_logo h2{
+    color: red;
+}
+.header_logo:hover{opacity: .8;}
+
+#Header a{
+    text-decoration: none;
+    color: aliceblue;
+    margin: 0 30px;
+    cursor: pointer;
+    font-weight:900;
+    letter-spacing: 1px;
+
+}
+#Header a:hover{color: red;}
+

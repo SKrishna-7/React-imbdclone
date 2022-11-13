@@ -1,0 +1,68 @@
+.poster a{
+    text-decoration: none;
+    color: white;
+}
+.poster{
+    font-family: 'Montserrat',sans-serif;
+
+}
+.posterimg{
+   height: 550px;
+    opacity: 1;
+}
+.posterimg >img{
+    margin: auto;
+    display: block;
+    width: 100%;                        
+    
+}
+
+.poster_overlay{
+    position: absolute;
+    padding: 5rem;
+    bottom: 0px;
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: flex-end;
+    align-items: flex-start;
+    opacity: 1;
+    transition: opacity .3s;
+    background-image: linear-gradient(rgb(0,0,0,0), rgb(0,0,0,1));
+}
+.posterImage_overlay:hover {
+    opacity: 1;
+}
+
+.posterImg_title {
+    font-family: sans-serif;
+    font-weight: 900;
+    font-size: 4rem;
+    margin-bottom: 0.4rem;
+    text-align: left;
+}
+
+.posterImg__runtime {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.posterImg_rating {
+    margin-left: 3rem;
+    
+}
+.fa-star{
+    padding  :0 5px;
+}
+
+.posterImg_des{
+    
+    font-size: 1rem;
+    /* display: flex; */
+    text-align: left;
+    width: 70%;
+    padding:1rem 0;
+    font-weight: bold;
+
+}
